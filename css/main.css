@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+/* Filter */
+.filtr-item{
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+.item-desc {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+  z-index: 1;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  border-radius: 10px;
+}
+
+/* Filter controls */
+.simplefilter li, .multifilter li, .sortandshuffle li {
+  color: white;
+  cursor: hand;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+
+}
+.simplefilter li {
+  background-color: #585858;
+  border-radius: 50px;
+}
+.simplefilter li.active {
+  background-color: #212121;
+}

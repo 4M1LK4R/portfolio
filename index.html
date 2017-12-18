@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/fontello.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/filter.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#212121" />
+    <link rel="shortcut icon" href="images/a.ico">
+    <title>| Amilkar Galería</title>
+</head>
+
+<body class="grey lighten-3">
+    <header>
+        <nav class="z-depth-3">
+            <div class="nav-wrapper blue-grey darken-4">
+                <a href="#!" data-activates="menuLateral" class="button-collapse top-nav full hide-on-large-only white-text waves-effect">
+                    <i class="icon-menu-1"></i>
+                </a>
+                <a href="#" class="brand-logo">&nbsp;Galería</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a onclick="$('.button-collapse').sideNav('show');">
+                            <i class="icon-menu"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <ul id="menuLateral" class="side-nav white-text blue-grey darken-4">
+            <li class="logo blue-grey darken-1 z-depth-1">
+                <div class="row">
+                    <div class="col s6">
+                        <h2>
+                            <img src="images/a_256.png" class="responsive-img materialboxed">
+                        </h2>
+                    </div>
+                    <div class="col s6">
+                        <h2 class="btn-block waves-effect waves-light blue-grey darken-1 white-text" onclick="CerrarSideNav();">
+                            <i class="icon-cancel-1"></i>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <center>
+                        <b>
+                            <p class="black-text">AMILKAR DOMINGUEZ</span>
+                        </b>
+                    </center>
+                </div>
+            </li>
+            <!--Menu Lateral-->
+            <ul class="collapsible" data-collapsible="accordion">
+                <li onclick="window.location='index.html'" class="white blue-grey-text text-darken-4">
+                    <div class="collapsible-header">
+                        <i class="icon-folder-open"></i>Galería</div>
+                </li>
+                <li onclick="window.location='https://drive.google.com/drive/folders/1qk1IdPR7RfcsZUDFotztvMz0GLUMEhsm?usp=sharing'" class="">
+                    <div class="collapsible-header">
+                        <i class="icon-google"></i>Google Drive</div>
+                </li>
+            </ul>
+            <!--Fin Menu Lateral-->
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <center>
+                    <h3>GALERÍA</h3>
+                    <hr>
+                </center>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12 BtnContainer">
+                    <button class="btn" onclick="filterSelection('all')">Mostrar Todos</button>
+                    <button class="btn" onclick="filterSelection('afiches')">Afiches</button>
+                    <button class="btn" onclick="filterSelection('logos')">Logos</button>
+                    <button class="btn" onclick="filterSelection('otros')">Otros</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="profolio">
+            <div class="row">
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af1.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af2.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af3.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af4.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af5.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af6.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af7.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af8.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af9.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af10.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af11.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af12.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af13.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af14.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column afiches">
+                    <div class="content">
+                        <center>
+                            <img src="images/afiches/af15.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column logos">
+                    <div class="content">
+                        <center>
+                            <img src="images/logos/lg1.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column logos">
+                    <div class="content">
+                        <center>
+                            <img src="images/logos/lg2.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column logos">
+                    <div class="content">
+                        <center>
+                            <img src="images/logos/lg3.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column logos">
+                    <div class="content">
+                        <center>
+                            <img src="images/logos/lg5.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column logos">
+                    <div class="content">
+                        <center>
+                            <img src="images/logos/lg6.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column logos">
+                    <div class="content">
+                        <center>
+                            <img src="images/logos/lg7.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column logos">
+                    <div class="content">
+                        <center>
+                            <img src="images/logos/lg8.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column otros">
+                    <div class="content">
+                        <center>
+                            <img src="images/otros/o1.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column otros">
+                    <div class="content">
+                        <center>
+                            <img src="images/otros/o2.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column otros">
+                    <div class="content">
+                        <center>
+                            <img src="images/otros/o3.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column otros">
+                    <div class="content">
+                        <center>
+                            <img src="images/otros/o4.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column otros">
+                    <div class="content">
+                        <center>
+                            <img src="images/otros/o5.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column otros">
+                    <div class="content">
+                        <center>
+                            <img src="images/otros/o6.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+                <div class="column otros">
+                    <div class="content">
+                        <center>
+                            <img src="images/otros/o7.png" class="materialboxed responsive-img" alt="galeria amilkar">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer blue-grey darken-4 white-text z-depth-3">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <center>
+                            <a class="btn-floating waves-effect waves-light green" href="https://api.whatsapp.com/send?phone=+59167377467&text=Hola,+Amilkar">
+                                <i class="icon-whatsapp"></i>
+                            </a>
+                            <a class="btn-floating waves-effect waves-light red" onclick="window.open('tel:67377467', '_system');">
+                                <i class="icon-phone"></i>
+                            </a>
+
+                        </center>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <center>
+                            <a class="grey-text text-lighten-4" href="https://api.whatsapp.com/send?phone=+59167377467&text=Hola,+Amilkar">Web - Desing : Amilkar Dominguez</a>
+                        </center>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+
+</html>
