@@ -2,7 +2,10 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-image: url("images.gif");
+    background-color: #cccccc;
   }
+
 
   main {
     flex: 1 0 auto;
